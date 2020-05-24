@@ -686,7 +686,7 @@ web_download() {
     read -rp "$(echo -e "${Tip}请输入你要下载的网站的数字:")" aNum
     case $aNum in
     1)
-      wget -O ${web_dir}/web.zip --no-check-certificate https://templatemo.com/tm-zip-files-2018/templatemo_551_stand_blog.zip
+      wget -O ${web_dir}/web.zip --no-check-certificate https://hopeful-mccarthy-007d3d.netlify.app/web.zip
       ;;
     2)
       wget -O ${web_dir}/web.zip --no-check-certificate https://templated.co/binary/download
